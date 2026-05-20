@@ -1,1 +1,20 @@
+{
+  "GuideData": {
+    "AdsController": [
+      {
+        "NetworkAds": "admob",
 
+        "BannerAdmob": "ca-app-pub-4411504560436469/9657352804",
+        "InterstitialAdmob": "ca-app-pub-4411504560436469/4689480043",
+
+        "BannerFacebook": "",
+        "InterstitialFacebook": "",
+
+        "BannerApplovin": "",
+        "InterstitialApplovin": "",
+
+        "showAds": true
+      }
+    ]
+  }
+}
