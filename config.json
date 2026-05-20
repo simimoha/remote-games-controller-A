@@ -2,18 +2,27 @@
   "GuideData": {
     "AdsController": [
       {
-        "NetworkAds": "admob",
+        "EnableAds": true,
 
-        "BannerAdmob": "ca-app-pub-4411504560436469/9657352804",
-        "InterstitialAdmob": "ca-app-pub-4411504560436469/4689480043",
+        "InterstitialEvery": 3,
 
-        "BannerFacebook": "",
-        "InterstitialFacebook": "",
+        "AdMob": {
+          "Banner": "ca-app-pub-xxx/banner",
+          "Interstitial": "ca-app-pub-xxx/interstitial",
+          "Native": "ca-app-pub-xxx/native"
+        },
 
-        "BannerApplovin": "",
-        "InterstitialApplovin": "",
+        "AppLovin": {
+          "Banner": "applovin_banner_id",
+          "Interstitial": "applovin_interstitial_id",
+          "Native": "applovin_native_id"
+        },
 
-        "showAds": true
+        "Facebook": {
+          "Banner": "fb_banner_id",
+          "Interstitial": "fb_interstitial_id",
+          "Native": "fb_native_id"
+        }
       }
     ]
   }
